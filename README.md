@@ -1,32 +1,42 @@
-# Tekken-7-Macro
-Tested for linux, it's a simple script in python that map keys for Backdash and Wavedash, and change p1/p2 side.
+### Description
 
-Dependencies:
-pip install pynput
-
-pip install pyKey
-
-xdotool (necessary for Linux)
-
-To install xodotool:
-
-For example: On fedora/openSUSE
-
-sudo dnf install xdotool
+- Tested for linux, it's a simple script in python that map keys for Backdash and Wavedash, and change p1/p2 side.
 
 
-On ubuntu/debian
+### Dependencies
 
-sudo apt install xdotool
+- pynput
+- pyKey
+- xdotool (only for Linux)
 
+### Install
 
-On Arch
+`$ pip install pynput`
 
-sudo pacman -S xdotool
+`$ pip install pyKey`
 
-Usage:
-sh run.sh
+- for Fedora/OpenSuse distro
+`$ sudo dnf install xdotool`
 
-or
+- for Ubuntu/Debian distro
+`$ sudo apt install xdotool`
 
-python TK7-Macro.py
+- for Arch distro
+`$ sudo pacman -S xdotool`
+
+### Usage
+
+You can run the script by using
+`$ sh run.sh`
+
+**OR**
+
+`$ python TK7-Macro.py`
+
+Some info about usage:
+- Press Q to use backdash
+- Press E to use wavedash
+- Press F to change P1/P2 side during the game
+- Press ESC to close the program
+
+From source you can always change hotkey to what you prefer.
