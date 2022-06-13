@@ -1,6 +1,7 @@
 ### Description
 
 - Tested for linux, it's a simple script in python that map keys for Backdash and Wavedash, and change p1/p2 side.
+- 13/06 ~ Now support profile choice and more hotkeys (like EWGF/PEWGF/OTGF/iWR2/Instant Shining Wizard)
 
 
 ### Dependencies
